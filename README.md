@@ -1,5 +1,5 @@
-UCI Cyclocross Race Data.
-Data Provided by Colin Reuter of crossresults.com
+#UCI Cyclocross Race Data
+##Data Provided by Colin Reuter of crossresults.com
 
 Broken down by year. File format is tab separated values. All files have a header row describing data.
 Each year contains:
@@ -9,6 +9,6 @@ predicted_points - The predicted crossresults points for the tenth place finishe
 race_list - a list of UCI CX races with their race ID number.
 
 
-Todo:
+##Todo:
 Normalize race data - move region, lat/long to the race_list file. Remove these fields from other files, and refer to race with race ID only.
 Clean data - some races in race list do not have a race ID. Could make up an arbitrary ID.
